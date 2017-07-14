@@ -1,0 +1,12 @@
+--- hello.c	2017-07-14 11:09:58.992000000 +0530
++++ hellos.c	2017-07-14 11:11:04.920000000 +0530
+@@ -1,5 +1,7 @@
+ #include<stdio.h>
+-main()
++main(void)
+ {
+-	printf("hello");
++	printf("hello world!");
++	printf("patched file!");
++
+ }	
